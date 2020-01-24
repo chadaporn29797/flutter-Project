@@ -1,0 +1,58 @@
+name: rabbittype
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  intro_slider: ^2.2.8
+  bottom_navy_bar: ^5.3.2
+  http: ^0.12.0+4
+  splashscreen: ^1.2.0
+  flutter_launcher_icons: ^0.7.4
+  flutter:
+    sdk: flutter
+  sqflite:
+  path:
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/icons/R3.png"
+  image_path_android: "assets/icons/R3.png"
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+  
+  assets:
+     - assets/icons/R3.png
+    #  - assets/icons/T2.png
+    #  - assets/icons/T3.png
+    #  - assets/icons/T4.png
+    #  - assets/icons/T5.png
+    #  - assets/icons/T6.png
+    #  - assets/icons/T7.png
+    #  - assets/icons/T8.png
+    #  - assets/icons/T9.png
+    #  - assets/icons/T10.png
+    #  - assets/icons/wetee1.png
+    #  - assets/icons/wetee2.png
+    #  - assets/icons/wetee3.png
+    #  - assets/icons/wetee4.png
+    #  - assets/icons/wetee5.png
+    #  - assets/icons/wetee6.png
+     
+
+cupertino_icons: ^0.1.2  
+splashscreen: any
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
