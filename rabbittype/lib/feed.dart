@@ -13,7 +13,7 @@ class FeedPage extends StatefulWidget {
 
 class FeedPageState extends State<FeedPage> {
   var url =
-      "https://raw.githubusercontent.com/AlisaBenz/flutter-Project/master/rabbittype/assets/icons/top.json";
+      "https://github.com/AlisaBenz/flutter-Project/blob/master/rabbittype/assets/icons/feed.json";
 
   PokeHub pokeHub;
 
@@ -37,7 +37,7 @@ class FeedPageState extends State<FeedPage> {
     return Scaffold(
       backgroundColor: Colors.lightGreen[300],
       appBar: AppBar(
-        title: Text("Top10 Rabbit"),
+        title: Text("Feed Rabbit"),
         backgroundColor: Colors.lightGreen[900],
       ),
       body: pokeHub == null
