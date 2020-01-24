@@ -55,9 +55,9 @@ class _BarNavyState extends State<BarNavy> {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(title: Text('Home'), icon: Icon(Icons.home)),
           BottomNavigationBarItem(
-              title: Text('Zodiac'), icon: Icon(Icons.star)),
+              title: Text('Top 10'), icon: Icon(Icons.star)),
           BottomNavigationBarItem(
-            title: Text('Year'),
+            title: Text('Feed'),
             icon: Icon(Icons.pets),
           ),
           BottomNavigationBarItem(
