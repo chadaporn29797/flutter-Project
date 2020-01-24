@@ -1,126 +1,97 @@
-class PokeHub {
-  List<Pokemon> pokemon;
+import 'dart:convert';
+import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+import 'top.dart';
+import 'topdetail.dart';
 
-  PokeHub({this.pokemon});
-
-  PokeHub.fromJson(Map<String, dynamic> json) {
-    if (json['pokemon'] != null) {
-      pokemon = new List<Pokemon>();
-      json['pokemon'].forEach((v) {
-        pokemon.add(new Pokemon.fromJson(v));
-      });
-    }
-  }
-
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    if (this.pokemon != null) {
-      data['pokemon'] = this.pokemon.map((v) => v.toJson()).toList();
-    }
-    return data;
+class FeedPage extends StatefulWidget {
+  @override
+  FeedPageState createState() {
+    return new FeedPageState();
   }
 }
 
-class Pokemon {
-  int id;
-  String num;
-  String name;
-  String img;
-  List<String> type;
-  String height;
-  String weight;
-  String candy;
-  int candyCount;
-  String egg;
-  String spawnChance;
-  String avgSpawns;
-  String spawnTime;
-  List<double> multipliers;
-  List<String> weaknesses;
-  List<NextEvolution> nextEvolution;
+class FeedPageState extends State<FeedPage> {
+  var url =
+      "https://raw.githubusercontent.com/AlisaBenz/flutter-Project/master/rabbittype/assets/icons/top.json";
 
-  Pokemon(
-      {this.id,
-      this.num,
-      this.name,
-      this.img,
-      this.type,
-      this.height,
-      this.weight,
-      this.candy,
-      this.candyCount,
-      this.egg,
-      this.spawnChance,
-      this.avgSpawns,
-      this.spawnTime,
-      this.multipliers,
-      this.weaknesses,
-      this.nextEvolution});
+  PokeHub pokeHub;
 
-  Pokemon.fromJson(Map<String, dynamic> json) {
-    id = json['id'];
-    num = json['num'];
-    name = json['name'];
-    img = json['img'];
-    type = json['type'].cast<String>();
-    height = json['height'];
-    weight = json['weight'];
-    candy = json['candy'];
-    candyCount = json['candy_count'];
-    egg = json['egg'];
-    spawnChance = json['spawn_chance'].toString();
-    avgSpawns = json['avg_spawns'].toString();
-    spawnTime = json['spawn_time'];
-    multipliers = json['multipliers']?.cast<double>();
-    weaknesses = json['weaknesses'].cast<String>();
-    if (json['next_evolution'] != null) {
-      nextEvolution = new List<NextEvolution>();
-      json['next_evolution'].forEach((v) {
-        nextEvolution.add(new NextEvolution.fromJson(v));
-      });
-    }
+  @override
+  void initState() {
+    super.initState();
+
+    fetchData();
   }
 
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['id'] = this.id;
-    data['num'] = this.num;
-    data['name'] = this.name;
-    data['img'] = this.img;
-    data['type'] = this.type;
-    data['height'] = this.height;
-    data['weight'] = this.weight;
-    data['candy'] = this.candy;
-    data['candy_count'] = this.candyCount;
-    data['egg'] = this.egg;
-    data['spawn_chance'] = this.spawnChance;
-    data['avg_spawns'] = this.avgSpawns;
-    data['spawn_time'] = this.spawnTime;
-    data['multipliers'] = this.multipliers;
-    data['weaknesses'] = this.weaknesses;
-    if (this.nextEvolution != null) {
-      data['next_evolution'] =
-          this.nextEvolution.map((v) => v.toJson()).toList();
-    }
-    return data;
-  }
-}
-
-class NextEvolution {
-  String num;
-  String name;
-
-  NextEvolution({this.num, this.name});
-
-  NextEvolution.fromJson(Map<String, dynamic> json) {
-    num = json['num'];
-    name = json['name'];
+  fetchData() async {
+    var res = await http.get(url);
+    var decodedJson = jsonDecode(res.body);
+    pokeHub = PokeHub.fromJson(decodedJson);
+    print(pokeHub.toJson());
+    setState(() {});
   }
 
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['num'] = this.num;
-    data['name'] = this.name;
-    return data;
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.lightGreen[300],
+      appBar: AppBar(
+        title: Text("Top10 Rabbit"),
+        backgroundColor: Colors.lightGreen[900],
+      ),
+      body: pokeHub == null
+          ? Center(
+              child: CircularProgressIndicator(),
+            )
+          : GridView.count(
+              crossAxisCount: 2,
+              children: pokeHub.pokemon
+                  .map((poke) => Padding(
+                        padding: const EdgeInsets.all(2.0),
+                        child: InkWell(
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => PokeDetail(
+                                          pokemon: poke,
+                                        )));
+                          },
+                          child: Hero(
+                            tag: poke.img,
+                            child: Card(
+                              child: Column(
+                                mainAxisSize: MainAxisSize.max,
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceEvenly,
+                                children: <Widget>[
+                                  Container(
+                                    height: MediaQuery.of(context).size.height *
+                                        0.14,
+                                    width: MediaQuery.of(context).size.width *
+                                        0.28,
+                                    decoration: BoxDecoration(
+                                        image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: NetworkImage(poke.img))),
+                                  ),
+                                  Text(
+                                    poke.name,
+                                    style: TextStyle(
+                                      fontSize: 15.0,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  )
+                                ],
+                              ),
+                              color: Colors.pink[100],
+                            ),
+                          ),
+                        ),
+                      ))
+                  .toList(),
+            ),
+    );
   }
 }

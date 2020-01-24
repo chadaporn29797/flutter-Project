@@ -4,7 +4,7 @@
       "id": 1,
       "num": "001",
       "name": "1.เตรียมพื้นที่สำหรับเลี้ยงกระต่าย",
-      "img": "https://stickershop.line-scdn.net/sticonshop/v1/sticon/5e003320031a67c29d10eb82/iPhone/001.png",
+      "img": "https://raw.githubusercontent.com/AlisaBenz/flutter-Project/master/rabbittype/assets/icons/wetee1.jpg",
       "type": [],
       "height": "• เลี้ยงในบ้าน",
       "weight": "การเลือกกรงก็เป็นส่วนที่สำคัญมากเลยนะคะ เพราะว่ากรงที่เราเลือกนั้นต้องมีขนาดใหญ่กว่าตัวของเจ้ากระต่าย ยิ่งใหญ่เท่าไหร่ยิ่งดี ส่วนพื้นของกรงควรเลือกกรงที่ดูแลง่าย ควรเลือกใช้วัสดุที่ทำจากลวด หรือสแตนเลส ไม่ควรเลือกวัสดุที่หุ้มด้วยพลาสติก",
@@ -31,7 +31,7 @@
       "id": 2,
       "num": "002",
       "name": "2.การให้อาหารและน้ำ",
-      "img": "https://stickershop.line-scdn.net/sticonshop/v1/sticon/5e003320031a67c29d10eb82/iPhone/002.png",
+      "img": "https://github.com/AlisaBenz/flutter-Project/blob/master/rabbittype/assets/icons/wetee2.jpg",
       "type": [
         "• หญ้า อาหารเม็ด"
       ],
@@ -60,7 +60,7 @@
       "id": 3,
       "num": "003",
       "name": "3.วิธีการอุ้มกระต่าย",
-      "img": "https://stickershop.line-scdn.net/sticonshop/v1/sticon/5e003320031a67c29d10eb82/iPhone/003.png",
+      "img": "https://raw.githubusercontent.com/AlisaBenz/flutter-Project/master/rabbittype/assets/icons/wetee3.jpg",
       "type": [
         "ฉลู"
       ],
@@ -89,7 +89,7 @@
       "id": 4,
       "num": "004",
       "name": "4.การอาบน้ำกระต่าย",
-      "img": "https://stickershop.line-scdn.net/sticonshop/v1/sticon/5e003320031a67c29d10eb82/iPhone/004.png",
+      "img": "https://raw.githubusercontent.com/AlisaBenz/flutter-Project/master/rabbittype/assets/icons/wetee4.jpg",
       "type": [
         "ชวด",
         "ฉลู",
@@ -125,7 +125,7 @@
       "id": 5,
       "num": "005",
       "name": "5.การตัดเล็บกระต่าย",
-      "img": "https://stickershop.line-scdn.net/sticonshop/v1/sticon/5e003320031a67c29d10eb82/iPhone/005.png",
+      "img": "https://raw.githubusercontent.com/AlisaBenz/flutter-Project/master/rabbittype/assets/icons/wetee5.jpg",
       "type": [
         "เถาะ",
         "มะโรง",
@@ -158,7 +158,7 @@
       "id": 6,
       "num": "006",
       "name": "6.การฝึกขับถ่าย",
-      "img": "https://stickershop.line-scdn.net/sticonshop/v1/sticon/5e003320031a67c29d10eb82/iPhone/006.png",
+      "img": "https://github.com/AlisaBenz/flutter-Project/blob/master/rabbittype/assets/icons/wetee6.jpg",
       "type": [
         "มะแม",
         "วอก",

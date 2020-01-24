@@ -35,6 +35,8 @@ flutter:
   
   assets:
      - assets/icons/R3.png
+     - assets/icons/Rabbit1.gif
+     
     #  - assets/icons/T2.png
     #  - assets/icons/T3.png
     #  - assets/icons/T4.png

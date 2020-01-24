@@ -4,6 +4,7 @@ import 'package:rabbittype/home.dart';
 
 import 'Zodiac.dart';
 import 'about.dart';
+import 'feed.dart';
 import 'introscreen.dart';
 
 class BarNavy extends StatefulWidget {
@@ -16,7 +17,7 @@ class _BarNavyState extends State<BarNavy> {
   final List<Widget> _children = [
     HomePage(),
     ZodiacPage(),
-    AboutMePage(),
+    FeedPage(),
     AboutMePage()
   ];
   PageController _pageController;
@@ -55,10 +56,10 @@ class _BarNavyState extends State<BarNavy> {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(title: Text('Home'), icon: Icon(Icons.home)),
           BottomNavigationBarItem(
-              title: Text('Top 10'), icon: Icon(Icons.star)),
+              title: Text('Top 10'), icon: Icon(Icons.favorite)),
           BottomNavigationBarItem(
             title: Text('Feed'),
-            icon: Icon(Icons.pets),
+            icon: Icon(Icons.fastfood),
           ),
           BottomNavigationBarItem(
             title: Text('Me'),

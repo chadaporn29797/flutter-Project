@@ -22,8 +22,9 @@ class _SplashPageState extends State<SplashPage> {
               color: Colors.pink[300],
               fontStyle: FontStyle.italic),
         ),
-        image: Image.asset('assets/icons/Rabbit1.gif'),
-        backgroundColor: Colors.pink[100],
+        image: Image.asset(
+            'https://raw.githubusercontent.com/AlisaBenz/flutter-Project/master/rabbittype/assets/icons/Rabbit1.gif'),
+        backgroundColor: Colors.orange[300],
         styleTextUnderTheLoader: TextStyle(color: Colors.deepPurple),
         photoSize: 150.0,
         loaderColor: Colors.pink[100]);
