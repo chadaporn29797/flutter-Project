@@ -4,7 +4,7 @@
       "id": 1,
       "num": "001",
       "name": "มินิเร็กซ์ (Mini Rex)",
-      "img": "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/d4.png",
+      "img": "https://raw.githubusercontent.com/AlisaBenz/flutter-Project/master/rabbittype/assets/icons/T1.jpg",
       "type": [
         "มินิเร็กซ์ เป็นกระต่ายขนาดเล็ก ขนนุ่มเหมือนกำมะหยี่ เป็นกระต่ายที่อารมณ์ดี เหมาะสำหรับเป็นสัตว์เลี้ยง ผู้เลี้ยงไม่ต้องเสียค่าใช้จ่ายในการตัดแต่งขน เพียงแค่ใช้ฝ่ามือลูบหลัง ขนที่ตายก็จะหลุดออกไป"
       ],
@@ -36,7 +36,7 @@
       "id": 2,
       "num": "002",
       "name": "เนเธอร์แลนด์ดวอร์ฟ (Netherland Dwarf)",
-      "img": "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/d5.png",
+      "img": "https://raw.githubusercontent.com/AlisaBenz/flutter-Project/master/rabbittype/assets/icons/T2.jpg",
       "type": [
         "อิทธิพลจากดาวศุกร์ยังเอื้ออำนวยต่อด้านความรัก ความหรูหรา และชีวิตส่วนตัวที่มีรูปแบบบรรยากาศสบายๆ ชอบใช้ชีวิตอยู่บ้าน ชอบความมั่นคงและข้อตกลงที่ยั่งยืน แต่ลักษณะด้านลบที่ควรดูแลคือลักษณะนิสัยที่มีแนวโน้มเจ้าอารมณ์เมื่ออยู่ในภาวะแปรปรวน เช่น ช่วงเวลาที่มีการโต้เถียงกัน หรือแม้แต่การละเลยหรือคำพูดรุนแรงแม้เพียงเล็กน้อย ก็อาจทำให้คนราศีพฤษภรู้สึกว่าถูกทำร้ายได้"
       ],
@@ -68,7 +68,7 @@
       "id": 3,
       "num": "003",
       "name": "ฮอลแลนด์ลอป (Holland Lop)",
-      "img": "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/d6.png",
+      "img": "https://raw.githubusercontent.com/AlisaBenz/flutter-Project/master/rabbittype/assets/icons/T3.jpg",
       "type": [
         "ฮอลแลนด์ลอปอาจโตเต็มที่ได้ถึง 1.8 กิโลกรัมเศษๆ เป็นกระต่ายขนาดกลาง รูปร่างเล็กแต่ลำตัวแน่น กลม หัวสั้น และหูตก นิสัยโดยยทั่วไปของฮอลแลนด์ ลอปคือเรียบร้อย แต่ตัวเมียมักจะค่อนข้างขี้อาย ขนยาวปานกลาง แต่ก็ต้องการการดูแลเรื่องแปรงขนเหมือนกัน"
       ],
@@ -100,7 +100,7 @@
       "id": 4,
       "num": "004",
       "name": "ซาตินแองโกลา (Satin Angora)",
-      "img": "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/d7.png",
+      "img": "https://raw.githubusercontent.com/AlisaBenz/flutter-Project/master/rabbittype/assets/icons/T4.jpg",
       "type": [
         "ซาตินแองโกลาเป็นกระต่ายที่มีขนยาวตลอดทั้งตัว, แก้ม และบางครั้งครอบคลุมถึงปลายหูด้วย ขนของกระต่ายพันธุ์นี้ส่องประกายแวววาวเหมือนผ้าซาติน จึงทำให้ได้ชื่อว่าซาติน แองโกลา ลำตัวยาวขนาดกลาง และรูปร่างกลม หัวเป็นรูปไข่ และหูตั้ง สายพันธุ์นี้อาจหนักได้ถึงประมาณ 2.7 - 4 กิโลกรัม"
       ],
@@ -132,7 +132,7 @@
       "id": 5,
       "num": "005",
       "name": "ดัตช์ (Dutch)",
-      "img": "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/d8.png",
+      "img": "https://raw.githubusercontent.com/AlisaBenz/flutter-Project/master/rabbittype/assets/icons/T5.jpg",
       "type": [
         "กระต่ายพันธุ์ดัตช์ โตเต็มที่ได้ตั้งแต่ 1.3 - 2.3 กิโลกรัม มีรูปร่างที่กลม สั้น สีของกระต่ายพันธุ์ดัตช์เป็นเอกลักษณ์มาก คือจะเป็นสีหนึ่งตั้งแต่บริเวณหูลงไปถึงแก้มและอีกด้านลงไปจะเป็นสีขาวลงไปถึงอก เป็นพันธุ์ที่น่าเลี้ยง อารมณ์ดี"
       ],
@@ -164,7 +164,7 @@
       "id": 6,
       "num": "006",
       "name": " นิวซีแลนด์ (New Zealand)",
-      "img": "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/d9.png",
+      "img": "https://raw.githubusercontent.com/AlisaBenz/flutter-Project/master/rabbittype/assets/icons/T6.jpg",
       "type": [
         "ชื่อของสายพันธุ์ นิวซีแลนด์อาจทำให้เข้าใจผิดว่ามาจากนิวซีแลนด์ แต่จริงๆแล้วกระต่ายพันธุ์นี้มีต้นกำเนิดจากอเมริกา ปกติน้ำหนักตัวสูงถึง 5 กิโลกรัม กระต่ายพันธุ์นิวซีนแลนด์ดั้งเดิมจะมีขนสีขาว แต่ตอนหลังสีขนเริ่มมีหลากหลายขึ้นเนื่องจากมีการผสมข้ามสายพันธุ์กับกระต่ายพันธุ์อื่นๆ ผู้เลี้ยงพันธุ์นี้ต้องเตรียมอาหารไว้เยอะๆเนื่องจากนิวซีนแลนด์ต้องกินอาหารเยอะ เพราะมีขนาดตัวที่ใหญ่นั่นเอง"
       ],
@@ -196,7 +196,7 @@
       "id": 7,
       "num": "007",
       "name": "เร็กซ์ (Rex)",
-      "img": "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/d10.png",
+      "img": "https://raw.githubusercontent.com/AlisaBenz/flutter-Project/master/rabbittype/assets/icons/T7.jpg",
       "type": [
         "เร็กซ์เป็นกระต่ายขนาดใหญ่ น้ำหนักระหว่าง 3 - 4.5 กิโลกรัม หากใครต้องการกระต่ายตัวใหญ่ ขนนุ่มเหมือนซาตินไว้กอด พันธุ์นี้แหละที่เหมาะสม แต่กระต่ายตัวผู้มีแนวโน้มจะค่อนข้างก้าวร้าวหากไม่ได้ทำหมัน"
       ],
@@ -228,7 +228,7 @@
       "id": 8,
       "num": "008",
       "name": " มินิลอป (Mini Lop)",
-      "img": "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/d11.png",
+      "img": "https://raw.githubusercontent.com/AlisaBenz/flutter-Project/master/rabbittype/assets/icons/T8.jpg",
       "type": [
         "มินิลอปโตเต็มที่อาจหนักถึง 2.7 กิโลกรัม รูปร่างขนาดกลาง โดยรวมเป็นพันธุ์ที่น่ารัก แต่ถ้าเทียบกับพันธุ์อื่นๆจะกระตือรือร้อนน้อยกว่า ผู้เลี้ยงต้องหาวิธีกระตุ้นหลากหลายกว่าจะได้เห็นพันธุ์นี้แค่ส่ายหาง และต้องเตรียมอุปกรณ์ไว้แปรงขนเนื่องจากพันธุ์นี้จะผลัดขนค่อนข้างเยอะ"
       ],
@@ -264,7 +264,7 @@
       "id": 9,
       "num": "009",
       "name": " เจอร์ซี วูลลี (Jersey Wooly)",
-      "img": "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/d12.png",
+      "img": "https://raw.githubusercontent.com/AlisaBenz/flutter-Project/master/rabbittype/assets/icons/T9.jpg",
       "type": [
         "เจอร์ซี วูลลีเป็นกระต่ายพันธุ์ที่น่ารักมาก น้ำหนักโตเต็มที่คือ 1.3 กิโลกรัม มีขนหนาฟู และนิสัยเรียบร้อยมาก จึงเหมาะที่จะเป็นกระต่ายที่เลี้ยงในบ้าน แต่กระต่ายพันธุ์นี้ต้องการการแปรงขนอย่างน้อยเดือนละหนึ่งครั้ง และถี่ขึ้นเวลากระต่ายโตขึ้นและมีการผลัดขน"
       ],
@@ -296,7 +296,7 @@
       "id": 10,
       "num": "010",
       "name": "ฟลอริดาไวท์ (Florida White)",
-      "img": "https://raw.githubusercontent.com/chadaporn29797/tiktry/master/d1.png",
+      "img": "https://raw.githubusercontent.com/AlisaBenz/flutter-Project/master/rabbittype/assets/icons/T10.jpg",
       "type": [
         "ฟลอริดาไวท์เป็นกระต่ายขนาดกลาง ลำตัวกลม สั้น หัวกลม และหูตั้ง และเหมือนกับชื่อสายพันธุ์ จะมีสีขาวอย่างเดียวและมีตาสีชมพู ฟลอริดาไวท์จะค่อนข้างเชื่องหากได้รับการฝึกให้คุ้นเคยกับคนตั้งแต่เด็ก และอาจจะต้องมีการทำหมันเพื่อควบคุมพฤติกรรมให้เรียบร้อย"
       ],

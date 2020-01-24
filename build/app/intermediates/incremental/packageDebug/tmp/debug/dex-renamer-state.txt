@@ -1,4 +1,0 @@
-#Thu Jan 23 22:16:31 ICT 2020
-base.0=/home/benz/Desktop/rabbittype/build/app/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
